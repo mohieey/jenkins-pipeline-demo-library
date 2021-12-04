@@ -4,8 +4,6 @@ def call(Map config) {
       sh '''
         git version
         docker version
-        dotnet --list-sdks
-        dotnet --list-runtimes
       '''
     }
 }
